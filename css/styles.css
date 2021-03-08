@@ -23,7 +23,7 @@ header {
 
 /* contents wrap */
 .wrap {
-	background-image: url(../img/movie/top_BKscreen.jpg);
+	background-image: url(../img/top_BKscreen.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
     width: 100%;
@@ -152,6 +152,43 @@ header {
     border: 8px solid #ff6f88;
 }
 /* menu */
+
+/* works-contents */
+
+#contents-wrap {
+    position: relative;
+}
+
+#video-wrap {
+    background: linear-gradient(rgba(72, 25, 148, 0.6), rgba(170, 99, 18, 0.5));
+    width: 100%;
+    height: 100vh;
+}
+
+#bk-video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+}
+
+#contents-wrap .works-list {
+    position: absolute;
+    top: 0;
+}
+
+#contents-wrap .works-list ul li {
+   list-style-type: none;
+}
+
+#contents-wrap .works-list ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* works-contents */
 
 /* API */
 
